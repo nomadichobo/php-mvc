@@ -7,8 +7,8 @@
         public function index() {
             $data = 
                 [
-                    'title' => 'Welcome'
-                ];
+                    'title' => 'PHP MVC Framework',
+                ];      
             $this->view('pages/index', $data);
         }
 
